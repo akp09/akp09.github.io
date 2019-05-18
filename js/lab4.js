@@ -17,7 +17,7 @@ function myName() {
     let ps = 'And it came to pass that the Lord spake unto me, saying: Blessed art thou, ' + name +', because of thy faith, for thou hast sought me diligently, with lowliness of heart.';
     //Output
     document.getElementById('output').innerHTML = ps;
-
+}
 /* Defining Table 4-2
 Input: get city as c, state as s, zip code as z 
 Process: put address in form c,s z as a
