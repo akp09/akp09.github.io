@@ -23,7 +23,7 @@ Input: get city as c, state as s, zip code as z
 Process: put address in form c,s z as a
 Output: print result as output
 */
-
+/*
 function addressBuilder() {
 //Input
 let c = document.getElementById("city").value;
@@ -33,4 +33,4 @@ let z = document.getElementById("zip").value;
 let a = c + ', ' + s + " " + z;
 //Output
 document.getElementById('output').innerHTML = a;
-}
+}*/
