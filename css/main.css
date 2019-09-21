@@ -24,12 +24,17 @@ body {
   
   header,
   footer {
-    background-color: rgb(260, 106, 32);
+    background-color: rgb(260, 106, 3);
     color: black;
   }
   
   footer {
     text-align: center;
+  }
+  
+  
+  footer a {
+    color: black;
   }
   
   img {
