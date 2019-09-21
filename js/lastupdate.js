@@ -1,3 +1,3 @@
 let date = "Last Updated: " + document.lastModified;
-document.getElementById('currentdate').innerHTML = date;
+document.getElementById('update').innerHTML = date;
 
