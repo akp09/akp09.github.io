@@ -1,0 +1,89 @@
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    margin: .25rem;
+  }
+
+  h2 {
+    color: navy    ;
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  header, footer {
+    margin: 1rem auto;
+    padding: .5rem;
+    max-width: 700px;
+  }
+  
+  header,
+  footer {
+    background-color: rgb(260, 106, 3);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+  }
+  footer a {
+    color: black;
+  }
+  
+  header img {
+    width: 150px;
+    height: auto;
+    box-shadow: 0 0 30px #777;
+  }
+  
+main {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 0 1rem;
+    background-color: rgb(131, 182, 216);
+    border-radius: 5px;
+}
+
+main h2, h3, h4{
+    text-align: center;
+}
+
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	section:nth-child(2) {
+		display: block;
+	}
+
+	section:nth-child(3) {
+		grid-column: span 2;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
+
+
+
+  
